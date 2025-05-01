@@ -15,4 +15,6 @@ You can modifiy (2 lines in the code both format) as your computer possibilites 
 
 => https://en.wikipedia.org/wiki/Display_resolution_standards
 
-Test on Windows environment
+Test on Windows environment (w10 and w11)
+
+Note : if it's failed, maybe checked screen frequency rate, change the value line 169
