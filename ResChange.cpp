@@ -165,6 +165,10 @@ void ChangeResolution(int width, int height) {
         // Définir la nouvelle résolution
         devMode.dmPelsWidth = width;
         devMode.dmPelsHeight = height;
+        devMode.dmBitsPerPel = devMode.dmBitsPerPel;
+        devMode.dmDisplayFrequency = 120;
+        
+        devMode.dmFields = DM_PELSWIDTH | DM_PELSHEIGHT | DM_BITSPERPEL | DM_DISPLAYFREQUENCY;
 
         // Changer la résolution
         LONG result = ChangeDisplaySettings(&devMode, CDS_TEST);
