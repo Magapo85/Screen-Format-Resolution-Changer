@@ -13,4 +13,6 @@ You can modifiy (2 lines in the code both format) as your computer possibilites 
 
 -> line 55 and 141 : 1024x768 (4/3) by 1280x960 or 800x600 or 960x720 or 1440x1080 or other ...
 
+=> https://en.wikipedia.org/wiki/Display_resolution_standards
+
 Test on Windows environment
